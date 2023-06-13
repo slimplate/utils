@@ -1,6 +1,6 @@
 {
   "name": "@slimplate/utils",
-  "version": "0.0.3",
+  "version": "0.0.0",
   "description": "Helper functions for slimplate projects.",
   "keywords": [
     "slimplate",
@@ -33,6 +33,10 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
     "vite": "^4.3.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slimplate/utils.git"
   },
   "peerDependencies": {
     "classnames": "^2.3.2",
