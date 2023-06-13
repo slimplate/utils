@@ -35,13 +35,12 @@
     "vite": "^4.3.9"
   },
   "peerDependencies": {
-    "react": "^18.2.0",
-    "slugify": "^1.6.6",
     "classnames": "^2.3.2",
     "dateformat": "^5.0.3",
     "inflection": "^2.0.1",
+    "react": "^18.2.0",
     "short-uuid": "^4.2.2",
+    "slugify": "^1.6.6",
     "template-templates": "^1.0.1"
-  },
-  "dependencies": {}
+  }
 }
