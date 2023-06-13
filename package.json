@@ -1,7 +1,7 @@
 {
   "name": "@slimplate/utils",
   "version": "0.0.0",
-  "description": "Helper components for using slimplate with daisyui",
+  "description": "Helper functions for slimplate projects.",
   "keywords": [
     "slimplate",
     "utils"
