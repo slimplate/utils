@@ -14,6 +14,12 @@ export default defineConfig({
       formats: ['es', 'cjs'],
       fileName: (format) => `slimplate-utils.${format === 'es' ? 'mjs' : 'cjs'}`
     },
+    slimplateReact: {
+      entry: path.resolve(__dirname, 'src/react.js'),
+      name: 'SlimplateUtilsReact',
+      formats: ['es', 'cjs'],
+      fileName: (format) => `slimplate-react.${format === 'es' ? 'mjs' : 'cjs'}`
+    },
     rollupOptions: {
       external: [...Object.keys(packageJson.peerDependencies)]
     }
